@@ -1,0 +1,38 @@
+html, body {
+	height: 100%;
+	background-color: #EEEEEE;
+}
+
+.container-fluid {
+	height: 100%;
+	padding-left: 0px;
+}
+
+#main-content {
+	height: 100%;
+}
+
+.sidepanel {
+	min-height: 100%;
+	width: 25%;
+	padding-top: 5%;
+	background-color: #ffffff;
+	position: fixed;
+}
+
+ul#styles-list {
+	list-style: none;
+}
+
+img.logo {
+	padding-bottom: 20px;
+}
+
+}
+.nav>li>a {
+	padding-left: 20%;
+}
+#main-content {
+	padding-left: 10%;
+	padding-top: 5%;
+}
