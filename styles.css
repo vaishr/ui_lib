@@ -36,3 +36,13 @@ img.logo {
 	padding-left: 10%;
 	padding-top: 5%;
 }
+
+.section-title {
+	margin-bottom: 40px;
+}
+
+.section-subtitle {
+	font-weight: 400;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}

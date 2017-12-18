@@ -11,6 +11,6 @@ const App = () => (
 
   ReactDOM.render(
     <App />,
-    document.getElementById('main-content')
+    document.getElementById('react_section-styles')
   );
 

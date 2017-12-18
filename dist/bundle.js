@@ -79,7 +79,7 @@
 	  );
 	};
 
-	_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('main-content'));
+	_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('react_section-styles'));
 
 /***/ }),
 /* 2 */
@@ -26358,13 +26358,23 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
+	    _react2.default.createElement(
+	      'h3',
+	      { className: 'section-subtitle' },
+	      'Buttons'
+	    ),
 	    _react2.default.createElement(_FlatButton2.default, { label: 'Default' }),
 	    _react2.default.createElement(_FlatButton2.default, { label: 'Primary', primary: true }),
 	    _react2.default.createElement(_FlatButton2.default, { label: 'Secondary', secondary: true }),
 	    _react2.default.createElement(_FlatButton2.default, { label: 'Disabled', disabled: true }),
 	    _react2.default.createElement('br', null),
 	    _react2.default.createElement('br', null),
-	    _react2.default.createElement(_FlatButton2.default, { label: 'Full width', fullWidth: true })
+	    _react2.default.createElement(_FlatButton2.default, { label: 'Full width', fullWidth: true }),
+	    _react2.default.createElement(
+	      'pre',
+	      null,
+	      'Code goes here'
+	    )
 	  );
 	};
 
