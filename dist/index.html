@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simplee Component Library</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+    <link href="../../styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid wrapper">
+      <div class="row">
+        <div class ="col-md-3">
+          <nav class = "nav sidepanel">
+              <img class="logo" src="assets/simplee_logo_transparent.png">
+            <div class= "nav-wrapper">
+            <ul class="nav">
+              <li id="styles">
+                <a href="#section-styles">Styles</a>
+                <!--   <ul id="styles-list">
+                    <li><a id="colors" href="#section-styles-colors">Colors</a></li>
+                    <li><a id="typography" href="#section-styles-typography">Typography</a></li>
+                    <li>Icons</li>
+                  </ul> -->
+              </li>
+              <li id="elements">
+                <a href="#section-elements">Elements</a>
+              </li>
+              <li id="components">
+               <a href="#section-components">Components</a>
+              </li>
+            </ul>
+          </div>
+          </nav>
+        </div>
+         <div class="col-md-9" id="main-content">
+            <div id="section-styles" class="selected-content"><h2>Styles</h2>
+            </div>
+            <div id="section-elements" class="selected-content"><h2>Elements</h2></div>
+             <div id="section-components" class="selected-content"><h2>Components</h2></div>
+      </div>
+    </div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
+  <!--   <script type="text/javascript" src="components/button.js"></script> -->
+    <script type="text/javascript" src="components.js"></script>
+    <script src="bundle.js"></script>
+  <script type="text/javascript" src="bundle.js"></script></body>
+</html>

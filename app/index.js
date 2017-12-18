@@ -13,3 +13,4 @@ const App = () => (
     <App />,
     document.getElementById('main-content')
   );
+
