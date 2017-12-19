@@ -1,5 +1,4 @@
 
-
 $(document).ready(function () {
     $('.nav ul li:first').addClass('active');
     $('.selected-content:not(:first)').hide();

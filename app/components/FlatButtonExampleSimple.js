@@ -3,7 +3,7 @@ import FlatButton from 'material-ui/FlatButton';
 
 const FlatButtonExampleSimple = () => (
   <div>
-  	<h3 className="section-subtitle">Buttons</h3>
+  	<h3 className="section-subtitle">Button Template</h3>
     <FlatButton label="Default" />
     <FlatButton label="Primary" primary={true} />
     <FlatButton label="Secondary" secondary={true} />
