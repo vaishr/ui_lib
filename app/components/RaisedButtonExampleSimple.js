@@ -1,52 +1,76 @@
 import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import Lock from 'material-ui/svg-icons/action/lock';
-import Email from 'material-ui/svg-icons/communication/email';
-import RightArrow from 'material-ui/svg-icons/hardware/keyboard-arrow-right';
-import Search from 'material-ui/svg-icons/action/search';
 
-const style = {
+const styleLarge = {
   margin: 12,
-  height: 50,
+  height: 48,
   borderRadius: 8
 };
 
-const RaisedButtonExampleSimple = () => (
+const styleMedium = {
+  margin: 12,
+  height: 36,
+  borderRadius: 8
+}
+
+const styleSmall = {
+  margin: 12,
+  height: 32,
+  borderRadius: 8
+}
+
+const styleLargeOutline = {
+  margin: 12,
+  height: 52,
+  borderRadius: 8
+};
+
+const styleMediumOutline = {
+  margin: 12,
+  height: 42,
+  borderRadius: 8
+}
+
+const styleSmallOutline = {
+  margin: 12,
+  height: 37,
+  borderRadius: 8
+}
+
+const RaisedButtonMain = () => (
   <div>
-    <h3 className="section-subtitle">Raised Buttons</h3>
-     <RaisedButton
+    <h3 className="section-subtitle">CTA Raised Buttons</h3>
+     <RaisedButton className="underlineHoverButton"
       buttonStyle={{borderRadius:8}}
-      label="Make a Payment"
+      label="Select"
+      labelStyle={{textTransform: "none"}}
       labelColor="#ffffff"
       backgroundColor="#006600"
       icon={<Lock />}
-      style={style}
+      style={styleLarge}
     />
-    <RaisedButton 
+    <RaisedButton className="underlineHoverButton"
       buttonStyle={{borderRadius:8}}
-      label="Value" 
+      label="Select"
+      labelStyle={{textTransform: "none"}}
       labelColor="#ffffff"
-      backgroundColor="#0070AA"
-      style={style} />
-    <RaisedButton
-      buttonStyle={{borderRadius:8}}
-      labelColor="#ffffff"
-      backgroundColor="#0070AA"
-      icon={<Email />}
-      style={style}
+      backgroundColor="#006600"
+      icon={<Lock />}
+      style={styleMedium}
     />
-      <RaisedButton
+    <RaisedButton className="underlineHoverButton"
       buttonStyle={{borderRadius:8}}
-      icon={<Search />}
-      label="Value"
+      label="Select"
+      labelStyle={{textTransform: "none"}}
       labelColor="#ffffff"
-      backgroundColor="#0070AA"
-      style={style}
-    />
-    <br />
+      backgroundColor="#006600"
+      icon={<Lock />}
+      style={styleSmall}
+    />    
     <br />
     <pre>Code for Raised Buttons goes here</pre>
   </div>
 );
 
-export default RaisedButtonExampleSimple;
+export default RaisedButtonMain;

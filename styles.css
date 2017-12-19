@@ -52,8 +52,26 @@ pre {
 	margin-top: 20px;
 }
 
-.button-rounded, .button-rounded button {
-	border-radius: 8px !important;
+.underlineHoverButton div:hover {
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
 }
+
+.fillHoverButton div {
+	border: 2px solid #0070AA;
+	border-radius: 8px;
+}
+
+.fillHoverButton div:hover {
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+}
+
+.roundedButton {
+	border-radius: 8px;
+}
+
+
+
 
 
