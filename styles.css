@@ -51,3 +51,9 @@ img.logo {
 pre {
 	margin-top: 20px;
 }
+
+.button-rounded, .button-rounded button {
+	border-radius: 8px !important;
+}
+
+

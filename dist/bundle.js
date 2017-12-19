@@ -29142,7 +29142,8 @@
 
 	var style = {
 	  margin: 12,
-	  height: 50
+	  height: 50,
+	  borderRadius: 8
 	};
 
 	var RaisedButtonExampleSimple = function RaisedButtonExampleSimple() {
@@ -29155,6 +29156,7 @@
 	      'Raised Buttons'
 	    ),
 	    _react2.default.createElement(_RaisedButton2.default, {
+	      buttonStyle: { borderRadius: 8 },
 	      label: 'Make a Payment',
 	      labelColor: '#ffffff',
 	      backgroundColor: '#006600',
@@ -29162,17 +29164,20 @@
 	      style: style
 	    }),
 	    _react2.default.createElement(_RaisedButton2.default, {
+	      buttonStyle: { borderRadius: 8 },
 	      label: 'Value',
 	      labelColor: '#ffffff',
 	      backgroundColor: '#0070AA',
 	      style: style }),
 	    _react2.default.createElement(_RaisedButton2.default, {
+	      buttonStyle: { borderRadius: 8 },
 	      labelColor: '#ffffff',
 	      backgroundColor: '#0070AA',
 	      icon: _react2.default.createElement(_email2.default, null),
 	      style: style
 	    }),
 	    _react2.default.createElement(_RaisedButton2.default, {
+	      buttonStyle: { borderRadius: 8 },
 	      icon: _react2.default.createElement(_search2.default, null),
 	      label: 'Value',
 	      labelColor: '#ffffff',
